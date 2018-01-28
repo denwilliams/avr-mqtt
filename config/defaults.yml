@@ -1,0 +1,17 @@
+# eg:
+# devices:
+#   - id: livingroom
+#     name: Living Room
+#     type: yamaha
+#     params:
+#       host: '192.168.0.123'
+# devices: []
+devices:
+  - id: livingroom
+    name: Living Room
+    type: yamaha
+    params:
+      host: '192.168.86.33'
+mqtt:
+  host: '192.168.86.12'
+  topic_prefix: 'homenet/avr'
