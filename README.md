@@ -10,10 +10,10 @@ Project designed to bridge all my AVRs to MQTT for both control and events
 
 ## Control Topics (Inbound)
 
-`{PREFIX}/livingroom/mute/set`
-`{PREFIX}/livingroom/mute/toggle`
-`{PREFIX}/livingroom/volume/set`
-`{PREFIX}/livingroom/volume/adjust`
-`{PREFIX}/livingroom/power/set`
-`{PREFIX}/livingroom/power/toggle`
-`{PREFIX}/livingroom/input/set`
+- `{PREFIX}/livingroom/mute/set`
+- `{PREFIX}/livingroom/mute/toggle`
+- `{PREFIX}/livingroom/volume/set`
+- `{PREFIX}/livingroom/volume/adjust`
+- `{PREFIX}/livingroom/power/set`
+- `{PREFIX}/livingroom/power/toggle`
+- `{PREFIX}/livingroom/input/set`
