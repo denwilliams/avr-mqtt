@@ -1,4 +1,7 @@
 # avr-mqtt
+
+**BREAKING: v2.0 changes the event format**
+
 Project designed to bridge all my AVRs to MQTT for both control and events
 
 ## Event Topics (Outbound)
