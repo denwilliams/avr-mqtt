@@ -1,8 +1,8 @@
 {
   "name": "avr-mqtt",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Project designed to bridge all my AVRs to MQTT for both control and events",
-  "main": "main.js",
+  "main": "lib/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,14 +11,13 @@
     "url": "git+https://github.com/denwilliams/avr-mqtt.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/denwilliams/avr-mqtt/issues"
   },
   "homepage": "https://github.com/denwilliams/avr-mqtt#readme",
   "dependencies": {
-    "@loke/config": "^3.0.0",
-    "mqtt": "^2.15.1",
-    "yamaha-nodejs": "^0.7.8"
+    "mqtt-usvc": "^2.1.0",
+    "yamaha-nodejs": "^0.9.6"
   }
 }

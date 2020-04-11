@@ -1,0 +1,15 @@
+mqtt:
+  uri: mqtt://user:password@192.168.0.123
+  prefix: avr
+service:
+  devices:
+    - id: room1
+      name: Room 1
+      type: yamaha
+      params:
+        host: "192.168.0.124"
+    - id: room2
+      name: Room 2
+      type: pioneer
+      params:
+        host: "192.168.0.125"
