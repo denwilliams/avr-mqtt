@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "avr-mqtt": "./lib/main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/denwilliams/avr-mqtt.git"
