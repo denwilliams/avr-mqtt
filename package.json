@@ -1,6 +1,6 @@
 {
   "name": "avr-mqtt",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "description": "Project designed to bridge all my AVRs to MQTT for both control and events",
   "main": "lib/main.js",
   "scripts": {
