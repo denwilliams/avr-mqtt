@@ -23,5 +23,9 @@
     "mqtt-usvc": "^3.0.3",
     "prom-client": "^12.0.0",
     "yamaha-nodejs": "^0.9.6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.15",
+    "postject": "^1.0.0-alpha.6"
   }
 }
